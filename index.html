@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="main"></div>
+
+    <!-- HTML for the navigation bar 
+    -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#" onclick="restartVideo();">
+            <img src="./Media/Sync_Ultra_Final-removebg_HD.png" alt="synQ Logo" id="home-button">
+        </a>
+        <a href="#Vision">Vision</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Video background -->
+    <video autoplay muted loop id="video-background">
+        <source src="./Media/WebsiteBG_Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <section id="services">
+      <h1 id="grad">Our Services</h1>
+      <div class="service-container">
+          <!-- Service Box 1 -->
+          <a href="./Qraze/index.html" class="service-link">
+              <div class="service-box">
+                  <img src="./Media/QRazeBlack.jpg" alt="Service 1" class="round-image">
+              </div>
+          
+          </a>
+      </div>
+  </section>
+
+    <!-- About Us section -->
+
+    <section id="Vision">
+      <div class="about-section" id="about">
+        <h1>About Us</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/Media/Harsh Markandey.png" alt="Jane" style="width:80%; border-radius: 50%;">
+            <div class="container">
+              <h2>Jane Doe</h2>
+              <p class="title1">Harsh Markandey<br><br>Front End Team</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p class="p1">jane@example.com</p>
+              <p><a href="https://www.linkedin.com/in/harsh-mark" target="_blank"><button class="button">Contact<br>on<br>linkedin</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/Media/Sarthak sant.png" alt="Mike" style="width:80%; border-radius: 90%;">
+            <div class="container">
+              <h2>Mike Ross</h2>
+              <p class="title2"><br>Sarthak Sant<br><br>Front End Team</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p class="p2">mike@example.com</p>
+              <p><a href="https://www.linkedin.com/in/sarthaksant/" target="_blank"><button class="button">Contact<br>on<br>linkedin</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/Media/Atharv sathe 1.png" alt="John" style="width: 80%; border-radius:70%;"">
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title3">Atharv Sathe<br><br>Back End</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p class="p3">john@example.com</p>
+              <p><a href="https://www.linkedin.com/in/satheatharv/" target="_blank"><button class="button">Contact<br>on<br>linkedin</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="column">
+            <div class="card">
+            <img src="/Media/ashish profile photo.png" alt="Jane" style="width:80%; border-radius: 50%;">
+            <div class="container">
+                <h2>Jane Doe</h2>
+                <p class="title4">Ashish Kumar<Br><br>Front End Design & Editting</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p class="p4">jane@example.com</p>
+                <p><a href="https://www.linkedin.com/in/ashish-kumar-11151420a/" target="_blank"><button class="button">Contact<br>on<br>linkedin</button></a></p>
+            </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+            <img src="/Media/Vedansh kapoor.png" alt="Jane" style="width:65%; border-radius: 45%;">
+            <div class="container">
+                <h2>Jane Doe</h2>
+                <p class="title5">Vedansh Kapoor<br><br>BackEnd</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p class="p5"></p>
+                <p><a href="https://www.linkedin.com/in/vedansh-kapoor-9617739b/" target="_blank"><button class="button">Contact<br>on<br>linkedin</button></a></p>
+            </div>
+        </div>
+     </div>
+    </section>
+    
+
+     <section id="contact">
+       
+      <h1>Contact Us</h1>
+      <div class="contact-container">
+          <div class="contact-info">
+              <h2>Contact Information</h2>
+              <p>Email: help@sync.com</p>
+              <p>Phone: +91 24681 01214</p>
+              <p>Address: VIT BHOPAL UNIVERSITY , Sehore , MP.</p>
+          </div>
+          <div class="contact-form">
+              <h2>Contact Form</h2>
+              <form action="https://formsubmit.co/atharvsathe2022@vitbhopal.ac.in" method="POST">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required="">
+  
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required="">
+  
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required=""></textarea>
+  
+                  <button type="submit">Submit</button>
+              </form>
+          </div>
+      </div>
+  
+  
+</section>
+
+
+
+
+
+
+
+    <!-- Your other sections (Services, Portfolio, Contact) go here -->
+
+    <script src="./sync.js"></script>
+</body>
+</html>
